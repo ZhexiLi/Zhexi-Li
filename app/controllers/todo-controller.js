@@ -68,6 +68,7 @@ exports.update = (request, response) => {
     const todoId = request.params.id;
     const updatedTodo = Object.assign({}, request.body);
     updatedTodo.id = todoId;
+    updatedTodo.modifiedDate = Date.now();
     const result = (todo) => {
         response.status(200);
         response.json(todo);
