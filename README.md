@@ -1,4 +1,4 @@
-# assignment-6-ZhexiLi
+# assignment-7-ZhexiLi
 
 ## Problem Statement:
 Create a simple Nodejs/Express REST API for a simple todo app.<br>
